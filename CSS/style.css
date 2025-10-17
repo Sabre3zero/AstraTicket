@@ -37,3 +37,57 @@ hr{
     background-color: #E6E6E6;
     height: 2px;
 }
+
+#menu{
+    display: flex;
+}   
+
+#ham_menu{
+    margin-left: 29px;
+    margin-top: 11px;
+    width: 75px;
+    height: 75px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #E6E6E6;
+    border-width: 5px;
+}
+
+#group_button{
+    margin-left: 45px;
+    margin-top: 11px;
+    width: 245px;
+    height: 75px;
+    background-color: #E6E6E6;
+    border-color: #E6E6E6;
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 5px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 75px;
+    font-size: 40px;
+    color: #383838;
+}
+
+#scene_button{
+    margin-left: 45px;
+    margin-top: 11px;
+    width: 245px;
+    height: 75px;
+    background-color: white;
+    border-color: #E6E6E6;
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 5px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 75px;
+    font-size: 40px;
+    color: #383838;
+    animation: ease-in-out 2s;
+}
+
+#scene_button:hover{
+    background-color: #E6E6E6;
+}
