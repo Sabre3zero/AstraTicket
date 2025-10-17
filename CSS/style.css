@@ -1,0 +1,39 @@
+#top_hr{
+    width: 100%;
+    height: 40px;
+    background-color: #4888FF;
+}
+
+#main_container{
+    display: flex;
+}
+
+#sign_in_box{
+    position: absolute;
+    right: 28px;
+    height: 52px;
+    width: 109px;
+    margin-top: 9px;
+    background-color: #4888FF;
+    border-color: #4888FF;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 52px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#name_text{
+    color: #4888FF;
+    margin-left: 15px;
+    margin-top: 17px;
+    font-size: 40px;
+}
+
+hr{
+    border: 0;
+    margin-top: -30px;
+    background-color: #E6E6E6;
+    height: 2px;
+}
