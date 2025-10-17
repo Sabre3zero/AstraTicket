@@ -85,9 +85,31 @@ hr{
     line-height: 75px;
     font-size: 40px;
     color: #383838;
-    animation: ease-in-out 2s;
+    transition: ease-in-out 0.2s;
 }
 
 #scene_button:hover{
+    background-color: #E6E6E6;
+}
+
+#schedule_button{
+    margin-left: 45px;
+    margin-top: 11px;
+    width: 331px;
+    height: 75px;
+    background-color: white;
+    border-color: #E6E6E6;
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 5px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 75px;
+    font-size: 40px;
+    color: #383838;
+    transition: ease-in-out 0.2s;
+}
+
+#schedule_button:hover{
     background-color: #E6E6E6;
 }
